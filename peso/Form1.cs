@@ -29,11 +29,12 @@ namespace peso
         private void button1_Click(object sender, EventArgs e)
         {
             if (radioButton1.Text == mulher)
-            { textBox3.Text = (Convert.ToDouble(textBox1.Text) * 62.1 - 44.7).ToString();
+            {
+                textBox3.Text = (Convert.ToDouble(textBox1.Text) * 62.1 - 44.7).ToString();
             }
-          
 
-            else 
+
+            else
             {
                 textBox3.Text = (Convert.ToDouble(textBox1.Text) * 72.7 - 58).ToString();
             }
